@@ -14,7 +14,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class SpringJenkinApplicationTests {
 
 
-	Logger logger=LoggerFactory.getLogger(SpringJenkinApplicationTests.class);
 	@Test
 	public void contextLoads() {
 		logger.info("Executing test package...");
